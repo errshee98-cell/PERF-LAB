@@ -1,0 +1,15 @@
+{
+  "name": "perf-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack performance engineering lab: N+1 queries, missing indexes, slow algorithms, caching, payloads, React rendering, load testing.",
+  "scripts": {
+    "setup": "npm --prefix client install && npm --prefix server run seed",
+    "dev": "node scripts/dev.js",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "bench": "npm --prefix server run bench",
+    "test": "npm --prefix server test"
+  },
+  "engines": { "node": ">=22.13" }
+}

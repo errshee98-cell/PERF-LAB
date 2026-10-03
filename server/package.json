@@ -1,0 +1,15 @@
+{
+  "name": "perf-lab-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Performance Engineering Lab API — zero runtime dependencies (node:http + node:sqlite)",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/index.js",
+    "seed": "node --disable-warning=ExperimentalWarning scripts/seed.js",
+    "bench": "node --disable-warning=ExperimentalWarning scripts/bench.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  }
+}
