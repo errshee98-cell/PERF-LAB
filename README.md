@@ -1,6 +1,6 @@
 # ⚡ Perf Lab: a full-stack performance engineering lab
 
-Intern ID : CITS8559
+
 
 A hands-on lab that reproduces the most common real-world performance problems and fixes each one side by side. Both versions run against the same **~1M-row dataset**, and every fix is **checksum-verified to return identical results**.
 
